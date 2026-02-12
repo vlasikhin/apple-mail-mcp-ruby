@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
+    bigdecimal (4.0.1)
+    json-schema (6.1.0)
+      addressable (~> 2.8)
+      bigdecimal (>= 3.1, < 5)
+    mcp (0.6.0)
+      json-schema (>= 4.1)
+    public_suffix (7.0.2)
+
+PLATFORMS
+  arm64-darwin-25
+  ruby
+
+DEPENDENCIES
+  mcp (~> 0.6)
+
+RUBY VERSION
+   ruby 3.4.8p72
+
+BUNDLED WITH
+   2.6.9

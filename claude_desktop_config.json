@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "apple-mail": {
+      "command": "ruby",
+      "args": ["/absolute/path/to/server.rb"]
+    }
+  }
+}
