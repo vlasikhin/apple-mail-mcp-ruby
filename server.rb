@@ -564,6 +564,7 @@ end
 server = MCP::Server.new(
   name: "apple-mail",
   version: "1.0.0",
+  configuration: MCP::Configuration.new(protocol_version: "2025-06-18"),
   tools: [ListAccounts, ListMailboxes, GetUnreadCount, SearchEmails,
     ReadEmail, MarkRead, MarkUnread, MarkFlagged, MoveEmail, TrashEmail]
 )
